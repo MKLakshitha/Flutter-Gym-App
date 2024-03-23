@@ -104,8 +104,7 @@ class _ChatGptPageState extends State<ChatGptPage> {
       Uri.parse('https://api.openai.com/v1/chat/completions'),
       headers: {
         'Content-Type': 'application/json',
-        'Authorization':
-            'Bearer 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'
+        'Authorization': 'OPEN-AI Api key'
       },
       body: jsonEncode({
         "model": "gpt-3.5-turbo-0125",
